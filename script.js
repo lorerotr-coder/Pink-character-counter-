@@ -21,3 +21,6 @@ textarea.addEventListener("input", () => {
         counter.style.color = "black";
     }
 });
+if (length >= 40 && length < MAX) {
+    counter.style.color = "orange";
+}
